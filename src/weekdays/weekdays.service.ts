@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreateWeekdayDto } from './dto/create-weekday.dto';
 import { UpdateWeekdayDto } from './dto/update-weekday.dto';
-import { Weekdays, WeekdaysModel } from './entities/weekday.entity';
+import { WeekdaysModel } from './models/weekdays.model';
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
