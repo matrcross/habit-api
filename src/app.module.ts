@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 import { WeekdaysModule } from './weekdays/weekdays.module';
+import { HabitListModule } from './habit-list/habit-list.module';
 
 @Module({
-  imports: [WeekdaysModule],
+  imports: [WeekdaysModule, HabitListModule],
   controllers: [],
   providers: [],
 })
